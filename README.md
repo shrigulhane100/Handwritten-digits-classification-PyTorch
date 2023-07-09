@@ -121,24 +121,22 @@ cd deep-learning-v2-pytorch
 	
 	At this point your command line should look something like: `(deep-learning) <User>:deep-learning-v2-pytorch <user>$`. The `(deep-learning)` indicates that your environment has been activated, and you can proceed with further package installations.
 
-3. Install PyTorch and torchvision; this should install the latest version of PyTorch.
-	
-	- __Linux__ or __Mac__: 
+Sure! Here's the updated version that installs TensorFlow instead of PyTorch:
+
+3. Install TensorFlow; this should install the latest version of TensorFlow.
+- __Linux__, __Mac__, or __Windows__:
 	```
-	conda install pytorch torchvision -c pytorch 
-	```
-	- __Windows__: 
-	```
-	conda install pytorch -c pytorch
-	pip install torchvision
+	pip install tensorflow
 	```
 
-6. Install a few required pip packages, which are specified in the requirements text file (including OpenCV).
+Is there anything else you need help with?
+
+4. Install a few required pip packages, which are specified in the requirements text file (including OpenCV).
 ```
 pip install -r requirements.txt
 ```
 
-7. That's it!
+5. That's it!
 
 Now most of the `deep-learning` libraries are available to you. Very occasionally, you will see a repository with an addition requirements file, which exists should you want to use TensorFlow and Keras, for example. In this case, you're encouraged to install another library to your existing environment, or create a new environment for a specific project. 
 
