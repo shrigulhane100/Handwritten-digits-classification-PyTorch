@@ -1,4 +1,4 @@
-# MNIST Handwritten Digits Recognition using PyTorch
+# MNIST Handwritten Digits Recognition using Tensorflow
 
 
 ## MNIST dataset
