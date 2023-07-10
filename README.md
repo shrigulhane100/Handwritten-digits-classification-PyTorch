@@ -139,7 +139,6 @@ Now, assuming your `deep-learning` environment is still activated, you can navig
 
 ```
 cd
-cd deep-learning-v2-pytorch
 jupyter notebook
 ```
 
