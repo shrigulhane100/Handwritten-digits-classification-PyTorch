@@ -9,7 +9,7 @@ The `MNIST` database is a dataset of handwritten digits. It has 60,000 training
 samples, and 10,000 test samples. Each image is represented by 28x28 pixels, each
 containing a value 0 - 255 with its grayscale value.
 
-![](https://github.com/shrigulhane100/Handwritten-digits-classification-PyTorch-/blob/main/images/samples.png)
+![](https://github.com/shrigulhane100/Handwritten-digits-classification-Tensorflow/blob/main/images/samples.png)
 
 It is a subset of a larger set available from NIST.
 The digits have been size-normalized and centered in a fixed-size image.
@@ -35,7 +35,7 @@ Thanks to Yann LeCun, Corinna Cortes, Christopher J.C. Burges.
 * A `convNet_model.pth` file has been included. With this one can directly load the model state_dict and use for testing.
 
 <p align='center'>
-  <img src='https://github.com/shrigulhane100/Handwritten-digits-classification-PyTorch-/blob/main/images/MNIST%20digits%20loss%20curve.png'>
+  <img src='https://github.com/shrigulhane100/Handwritten-digits-classification-Tensorflow/blob/main/images/output.png'>
 </p>
 
 
