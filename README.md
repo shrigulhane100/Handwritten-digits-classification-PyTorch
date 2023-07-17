@@ -83,7 +83,7 @@ Using Anaconda consists of the following:
 
 ## 2. Create and Activate the Environment
 
-For Windows users, these following commands need to be executed from the **Anaconda prompt** as opposed to a Windows terminal window. For Mac, a normal terminal window will work. 
+For Windows users, the following commands need to be executed from the **Anaconda prompt** as opposed to a Windows terminal window. For Mac, a normal terminal window will work. 
 
 #### Git and version control
 These instructions also assume you have `git` installed for working with Github from a terminal window, but if you do not, you can download that first with the command:
@@ -143,3 +143,28 @@ jupyter notebook
 ```
 
 To exit the environment when you have completed your work session, simply close the terminal window.
+
+
+
+
+# Some general suggestions
+Use of assertions and Logging:
+
+    Consider using [Python assertions](https://realpython.com/lessons/assertions/) for sanity testing - assertions are great for catching bugs. This is especially true of a dynamically type-checked language like Python where a wrong variable type or shape can cause errors at runtime
+    Logging is important for long-running applications. Logging done right produces a report that can be analyzed to debug errors and find crucial information. There could be different levels of logging or logging tags that can be used to filter messages most relevant to someone. Messages can be written to the terminal using print() or saved to file, for example using the [Logger module](https://docs.python.org/3/library/logging.html). Sometimes it's worthwhile to catch and log exceptions during a long-running operation so that the operation itself is not aborted.
+
+# Debugging:
+
+    Check out this guide on [debugging in python](https://towardsdatascience.com/ultimate-guide-to-python-debugging-854dea731e1b)
+
+# Reproducibility:
+
+    Reproducibility is perhaps the biggest issue in machine learning right now. With so many moving parts present in the code (data, hyperparameters, etc) it is imperative that the instructions and code make it easy for anyone to get exactly the same results (just imagine debugging an ML pipeline where the data changes every time and so you cannot get the same result twice).
+    Also consider using random seeds to make your data more reproducible.
+
+# Optimization and Profiling:
+
+    Monitoring progress and debugging with [Tensorboard](https://www.tensorflow.org/tensorboard): This tool can log detailed information about the model, data, hyperparameters, and more. Tensorboard can be used with Pytorch as well.
+
+    Profiling with [Pytorch](https://pytorch.org/tutorials/recipes/recipes/profiler_recipe.html): Pytorch's profiler can be used to break down profiling information by operations (convolution, pooling, batch norm) and identify performance bottlenecks. The performance traces can be viewed in the browser itself. The profiler is a great tool for quickly comparing GPU vs CPU speedups for example.
+
