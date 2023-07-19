@@ -1,5 +1,6 @@
 # MNIST Handwritten Digits Recognition using Tensorflow
 
+`Model Accuracy: 99.32%`
 
 ## MNIST dataset
 
