@@ -19,7 +19,7 @@ Thanks to Yann LeCun, Corinna Cortes, Christopher J.C. Burges.
 
 
 ## Results
-***`A validation dataset of size 12,000 was deduced from the Training dataset with its size being changed to 48,000. We train the following models for 20 epochs.`***
+***`A validation dataset of size 12,000 was deduced from the Training dataset with its size being changed to 48,000. We train the following models for 50 epochs.`***
 
 ### Prarameters Initialization
 * Both models have been initialized with random weights sampled from a normal distribution and bias with 0.
