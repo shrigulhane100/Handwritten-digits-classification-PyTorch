@@ -1,4 +1,4 @@
-# MNIST Handwritten Digits Recognition using Tensorflow
+# MNIST Handwritten Digits Recognition using Pytorch
 
 `Model Accuracy: 99.32%`
 
@@ -36,7 +36,7 @@ Thanks to Yann LeCun, Corinna Cortes, Christopher J.C. Burges.
 * A `convNet_model.pth` file has been included. With this one can directly load the model state_dict and use for testing.
 
 <p align='center'>
-  <img src='https://github.com/shrigulhane100/Handwritten-digits-classification-Tensorflow/blob/main/images/output.png'>
+  <img src='https://github.com/shrigulhane100/Handwritten-digits-classification-/blob/main/images/output.png'>
 </p>
 
 
@@ -98,7 +98,7 @@ conda install git
 
 1. Clone the repository, and navigate to the downloaded folder. This may take a minute or two to clone due to the included image data.
 ```
-git clone https://github.com/shrigulhane100/Handwritten-digits-classification-Tensorflow.git
+git clone https://github.com/shrigulhane100/Handwritten-digits-classification-.git
 
 ```
 
@@ -117,12 +117,12 @@ git clone https://github.com/shrigulhane100/Handwritten-digits-classification-Te
 	
 	At this point your command line should look something like: `(deep-learning) <User>:deep-learning-v2-pytorch <user>$`. The `(deep-learning)` indicates that your environment has been activated, and you can proceed with further package installations.
 
-Sure! Here's the updated version that installs TensorFlow instead of PyTorch:
+Sure! Here's the updated version that installs PyTorch instead of PyTorch:
 
-3. Install TensorFlow; this should install the latest version of TensorFlow.
+3. Install PyTorch; this should install the latest version of PyTorch.
 - __Linux__, __Mac__, or __Windows__:
 	```
-	pip install tensorflow
+	pip install PyTorch
 	```
 
 Is there anything else you need help with?
@@ -134,7 +134,7 @@ pip install -r requirements.txt
 
 5. That's it!
 
-Now most of the `deep-learning` libraries are available to you. Very occasionally, you will see a repository with an addition requirements file, which exists should you want to use TensorFlow and Keras, for example. In this case, you're encouraged to install another library to your existing environment, or create a new environment for a specific project. 
+Now most of the `deep-learning` libraries are available to you. Very occasionally, you will see a repository with an addition requirements file, which exists should you want to use PyTorch and Keras, for example. In this case, you're encouraged to install another library to your existing environment, or create a new environment for a specific project. 
 
 Now, assuming your `deep-learning` environment is still activated, you can navigate to the main repo and start looking at the notebooks:
 
